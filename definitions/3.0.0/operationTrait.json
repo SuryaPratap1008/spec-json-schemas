@@ -49,4 +49,7 @@
   },
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://asyncapi.com/definitions/3.0.0/operationTrait.json"
-}
+  "messages": {
+      "description": "A short summary of what the messages for this operation.",
+      "$ref": "http://asyncapi.com/definitions/3.0.0/operation.json#/properties/messages"
+    }
